@@ -7,7 +7,7 @@ Erlang foi criada na década de 1980 pela Ericsson, uma empresa sueca de telecom
 
 ## Instalação do Erlang ⚙️
 
-Ubuntu
+### Ubuntu
 
 ```
 bash
