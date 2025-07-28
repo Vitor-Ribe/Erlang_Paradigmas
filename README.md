@@ -44,14 +44,13 @@ O editor será aberto, onde vc poderá escrever o seguinte código:
 ```
 erlang
 
--module(boas_vindas).  % é o nome do módulo Erlang, deve ser o mesmo nome do arquivo. (seria como uma classe em linguagens OO).
--export([ola_mundo/0]).  % define quais funções podem ser acessadas fora do arquivo (como um public em métodos). '/0' define a quantidade de argumentos que a função recebe.
+-module(boas_vindas).
+-export([ola_mundo/0]).
 
-% cabeçalho da função.
 ola_mundo() ->  
-  io:format("Olá, mundo!~n").  % imprime na tela a mensagem "Olá, mundo!".
+  io:format("Olá, mundo!~n").
 ```
-
+Para entender o que cada linha faz acesse [examples/boas_vindas.erl](https://github.com/usuario/repositorio/blob/main/src/main.erl)
 
 salve e feche o editor. <br><br>
 
