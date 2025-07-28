@@ -81,3 +81,7 @@ Olá, mundo!
 ok
 3> 
 ```
+
+## Exemplos em Erlang
+
+- [Fatorial](https://github.com/Vitor-Ribe/Erlang_Paradigmas/blob/main/examples/fatorial.erl).
