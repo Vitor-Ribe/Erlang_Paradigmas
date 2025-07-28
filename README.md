@@ -50,9 +50,9 @@ erlang
 ola_mundo() ->  
   io:format("Olá, mundo!~n").
 ```
-Para entender o que cada linha faz acesse [examples/boas_vindas.erl](https://github.com/usuario/repositorio/blob/main/src/main.erl)
+> Para entender o que cada linha faz,  acesse [boas_vindas.erl](https://github.com/Vitor-Ribe/Erlang_Paradigmas/blob/main/examples/boas_vindas.erl).
 
-salve e feche o editor. <br><br>
+Salve e feche o editor. <br><br>
 
 
 
