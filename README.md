@@ -86,3 +86,63 @@ ok
 
 - [Fatorial](https://github.com/Vitor-Ribe/Erlang_Paradigmas/blob/main/examples/fatorial.erl)
 - [Soma de números de uma lista](https://github.com/Vitor-Ribe/Erlang_Paradigmas/blob/main/examples/soma.erl)
+- [Filtrar pares de uma lista com funções de ordem superior](https://github.com/Vitor-Ribe/Erlang_Paradigmas/blob/main/examples/par_ordem_superior.erl)
+- [Filtrar pares de uma lista com recursividade](https://github.com/Vitor-Ribe/Erlang_Paradigmas/blob/main/examples/par_recursivo.erl)
+
+<br>
+
+### Somar números de uma lista ➕
+```
+erlang
+
+soma_lista([]) ->
+	0;
+
+soma_lista([H | T]) ->
+	H + soma_lista(T).
+```
+> Adiciona o primeiro numero da lista (H) com o resultado do restante da lista recursivamente.
+
+
+<br><br>
+
+### Filtrar pares de uma lista 🔍
+
+É possível filtrar os pares de uma lista com funções de ordem superior e com recursão.<br>
+
+**Ordem Superior:**
+```
+erlang
+
+  pares(Lista) ->
+    lists:filter(fun(X) -> X rem 2 == 0 end, Lista).
+```
+> ```lists:filter``` É uma função de ordem superior pronta que já vem com o Erlang. Ela serve para percorrer uma lista e manter apenas os elementos que passam em um teste.
+
+Imagina que você está passando números por uma peneira:
+
+- Sua lista é: [1, 2, 3, 4, 5, 6].
+- Sua "peneira" (função Fun) só deixa passar números pares.
+
+<br>
+
+**Recursão**
+```
+erlang
+
+filtrar_pares([]) -> 
+    [];
+
+filtrar_pares([H|T]) when H rem 2 == 0 ->
+    [H | filtrar_pares(T)];
+
+filtrar_pares([_H|T]) ->
+    filtrar_pares(T).
+```
+- ```[H|T]```: separa a lista em H (cabeça) e T (cauda)
+- ```when H rem 2 == 0```: verifica se H é par
+- ```[H | filtrar_pares(T)]```: constrói a nova lista incluindo esse elemento e continua a recursão com o restante da lista
+- ```([_H|T])```:Se H não é par, então ignora esse elemento
+- ```filtrar_pares(T).```: Só continua a recursão com T (cauda)
+
+
