@@ -4,7 +4,7 @@ Repositório para atividades relacionadas ao paradigma funcional com o uso da li
 ## História da Linguagem 🕰️
 
 <p align="center">
-  <img src="imagens/logo.png" width="200"/>
+  <img src="imagens/logo.jpg" width="200"/>
 </p>
 
 
