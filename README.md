@@ -3,6 +3,11 @@ Repositório para atividades relacionadas ao paradigma funcional com o uso da li
 
 ## História da Linguagem 🕰️
 
+<p align="center">
+  <img src="imagens/logo.png" width="200"/>
+</p>
+
+
 Erlang foi criada na década de 1980 pela Ericsson, uma empresa sueca de telecomunicações. O objetivo era desenvolver sistemas de telecom robustos, tolerantes a falhas e com alta disponibilidade. Joe Armstrong, Robert Virding e Mike Williams foram os principais criadores. A linguagem foi aberta ao público em 1998. Erlang se destaca pelo modelo de concorrência baseado em processos leves e isolamento, sendo usada em sistemas que exigem alta confiabilidade como servidores de telefonia, bancos e mensageria (ex: WhatsApp).
 
 ## Instalação do Erlang ⚙️
