@@ -84,4 +84,5 @@ ok
 
 ## Exemplos em Erlang
 
-- [Fatorial](https://github.com/Vitor-Ribe/Erlang_Paradigmas/blob/main/examples/fatorial.erl).
+- [Fatorial](https://github.com/Vitor-Ribe/Erlang_Paradigmas/blob/main/examples/fatorial.erl)
+- [Soma de números de uma lista](https://github.com/Vitor-Ribe/Erlang_Paradigmas/blob/main/examples/soma.erl)
