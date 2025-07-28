@@ -1,4 +1,4 @@
--module(filtros).
+-module(par_ordem_superior).
 -export([pares/1]).
 
 pares(Lista) ->
